@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <EditText
+        android:id="@+id/NomFormation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nom du formation" />
+
+    <Button
+        android:id="@+id/chercher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/NomFormation"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:text="chercher"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nom du formation"
+        android:layout_below="@+id/chercher"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
+
+    <Spinner
+        android:id="@+id/categorieFormation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp" />
+
+    <Spinner
+        android:id="@+id/typeFormation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/categorieFormation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp" />
+
+    <EditText
+        android:id="@+id/NombreHeure"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/typeFormation"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="Nombre d'heure"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/prix"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/NombreHeure"
+        android:layout_alignRight="@+id/NombreHeure"
+        android:layout_below="@+id/NombreHeure"
+        android:layout_marginTop="39dp"
+        android:ems="10"
+        android:hint="Prix"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/retour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="42dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginStart="67dp"
+        android:text="retour" />
+
+    <Button
+        android:id="@+id/valider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/retour"
+        android:layout_marginLeft="47dp"
+        android:layout_marginStart="47dp"
+        android:layout_toEndOf="@+id/retour"
+        android:layout_toRightOf="@+id/retour"
+        android:text="Valider"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+</RelativeLayout>

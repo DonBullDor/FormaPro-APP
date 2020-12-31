@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_acceuil"
+            android:icon="@drawable/home"
+            android:title="@string/Accueil" />
+        <item
+            android:id="@+id/nav_catalogue"
+            android:icon="@drawable/home"
+            android:title="@string/catalogue_de_formation" />
+
+        <item
+            android:id="@+id/nav_connexion"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/Connexion" />
+        <group
+            android:id="@+id/groupe_1"
+            android:visible="true">
+        <item
+            android:id="@+id/nav_messagerie"
+            android:icon="@drawable/mail"
+            android:title="@string/messagerie" />
+        <item
+            android:id="@+id/nav_activites"
+            android:icon="@drawable/act"
+            android:title="@string/mes_activites" />
+        <item
+            android:id="@+id/nav_paiement"
+            android:icon="@drawable/pai"
+            android:title="@string/paiement" />
+        <item
+            android:id="@+id/nav_gerercompte"
+            android:icon="@drawable/gerer_cpte"
+            android:title="@string/gerer_mon_compte" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/deconnexion"
+            android:visible="false"/>
+        </group>
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/Contact" />
+        <item
+            android:id="@+id/nav_apropos"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/Apropos" />
+    </group>
+
+
+
+</menu>

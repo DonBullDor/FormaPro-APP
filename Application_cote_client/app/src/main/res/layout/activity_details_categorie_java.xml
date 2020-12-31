@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/change_password"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context=".Detail_categorie_java">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="Details du formation java"
+        android:textColor="@color/greenformapro"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <!--  Email Label -->
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#372c24"
+        android:text="Formateur"/>
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#372c24"
+        android:text="Nombre d'heures"/>
+
+    <EditText
+        android:id="@+id/nv_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="20sp"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        tools:ignore="LabelFor" />
+
+    <!-- s'inscrire a une  formation -->
+    <Button android:id="@+id/btn_inscrire"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="S'inscrire"
+        android:onClick="onClick"/>
+
+    <!-- reset button -->
+    <Button android:id="@+id/btn_annuler"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="@string/annuler"
+        android:onClick="onClick"/>
+
+</LinearLayout>

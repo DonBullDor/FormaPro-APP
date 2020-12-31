@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dip"
+    android:weightSum="1">
+
+
+
+    <FrameLayout
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+    <!--  Email Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#372c24"
+        android:text="@string/email"/>
+
+    <EditText android:id="@+id/reg_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:maxLines="1"
+        android:layout_marginBottom="20dip"
+        android:inputType="textEmailAddress" />
+
+    <!-- Password Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#372c24"
+        android:text="@string/mot_de_passe"/>
+
+    <EditText android:id="@+id/reg_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginTop="5dip"
+        android:maxLines="1"
+        android:layout_marginBottom="20dip"/>
+
+    <!-- Confirm Password Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#372c24"
+        android:text="@string/confirmer_mot_de_passe"/>
+
+    <EditText android:id="@+id/reg_password_confirm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:layout_marginTop="5dip"/>
+
+    <!-- Register Button -->
+    <Button android:id="@+id/btnRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/inscrire"/>
+
+    <!-- Link to Login Screen -->
+    <TextView android:id="@+id/link_to_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:layout_marginBottom="40dip"
+        android:text="@string/vous_avez_d_j_un_compte_connecter_ici"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#025f7c"
+        android:onClick="onClick"
+        android:layout_weight="0.07" />
+
+
+</LinearLayout>

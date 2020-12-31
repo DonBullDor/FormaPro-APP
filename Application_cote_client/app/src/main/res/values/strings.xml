@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">FormaPro</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="Contact">Contact</string>
+    <string name="Apropos">Apropos</string>
+    <string name="Connexion">Connexion</string>
+    <string name="Accueil">Accueil</string>
+    <string name="lien_au_catalogue">Aller voir notre catalogue</string>
+    <string name="nom_et_prenom">Nom et Prenom</string>
+    <string name="email">Email</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="confirmer_mot_de_passe">Confirmer le mot de passe</string>
+    <string name="creer_un_compte">Creer un compte?</string>
+    <string name="vous_avez_d_j_un_compte_connecter_ici">vous avez déjà un compte? connecter ici</string>
+    <string name="logo_du_centre">logo du centre</string>
+    <string name="et_mail">et_mail</string>
+    <string name="et_mdp">et_mdp</string>
+    <string name="_216_29_215_715_personal"> 216 29 215 715 personal</string>
+    <string name="site_centre">formapro.topnet.tn personal</string>
+    <string name="adresse_centre"> 31 rue thaalbi bizerte prés du lycee des jeunes filles local 1</string>
+    <string name="smart_formapro">smart formapro</string>
+    <string name="apropos_ducentre">
+        Smart Forma Pro est l\'un des premiers Instituts de formation aux Nouvelles Technologies.
+        Son pffre represente plus de 300 formations, séminaires et stage pratiques. Avec tout efficaces,
+        les formations Smart Forma Pro vous permettent de développer vos compétences par le transfert
+        de connaissances et la mise en pratique au travers d\'exercices, d\'etudes de cas ou de jeux de role.
+        Elles sont aussi l\'occassion d\'echanger des experiences et de ressourcer dans le cadre d\'environnements
+        particulierement conviviaux, àproximité du lieu de travail.
+    </string>
+    <string name="inscrire">S inscrire</string>
+    <string name="telephone1">Telephone1:</string>
+    <string name="adresse">Adresse:</string>
+    <string name="changer_le_mot_de_passe">Changer le mot de passe</string>
+    <string name="telephone2">Telephone2</string>
+    <string name="user_name">User name</string>
+    <string name="user_name_gmail_com">user_name@gmail.com</string>
+    <string name="image_de_profile_pour_le_user">image de profile pour le user</string>
+    <string name="cover_image">cover image</string>
+    <string name="authentification">Authentification</string>
+    <string name="catalogue_de_formation">Catalogue de formation</string>
+    <string name="type_message">type message</string>
+    <string name="write_a_message">Write a message</string>
+    <string name="message">Android chatting app</string>
+    <string name="messagerie">Messagerie</string>
+    <string name="mes_activites">Mes activites</string>
+    <string name="paiement">Paiement</string>
+    <string name="gerer_mon_compte">Gerer mon compte</string>
+    <string name="title_activity_suivre_activites">suivre_activites</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="mot_de_passe_actuelle">Mot de passe actuelle</string>
+    <string name="nouveau_mot_de_passe">Nouveau mot de passe</string>
+    <string name="conserver">Conserver</string>
+    <string name="annuler">Annuler</string>
+    <string name="changer_votre_mot_de_passe">Changer votre mot de passe</string>
+    <string name="changer_nom">Changer votre nom</string>
+    <string name="nom">Nom</string>
+    <string name="type_de_message">Type de message</string>
+
+
+
+
+
+    //chat
+    <string name="type_msg">Type message</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="or">or</string>
+    <string name="displayName">Display Name</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="log_in">Log in</string>
+    <string name="forgot_my_pwd">I’ve forgotten my password?</string>
+    <string name="my_chats">My Chats</string>
+    <string name="all_chats">All Chats</string>
+    <string name="search">Search</string>
+    <string name="to">To:</string>
+    <string name="edit">Edit</string>
+    <string name="new_chat">New Chat</string>
+    <string name="alert_wait">Please wait...</string>
+    <string name="err_fields_empty">Please fill all the fields.</string>
+    <string name="err_singup">Error occurred while signup:</string>
+    <string name="err_login">Error occurred while login:</string>
+    <string name="err_users">Error occurred while finding users:</string>
+    <string name="alert_loading">Loading...</string>
+    <string name="msg_no_user_found">No users found for chat!</string>
+    <string name="delivered_text">Delivered</string>
+    <string name="sending_text">Sending...</string>
+    <string name="failed_text">Failed</string>
+    <string name="deconnexion">Deconnexion</string>
+    <string name="mes_formations">Mes Formations</string>
+    <string name="mes_paiements">Mes paiements</string>
+    <string name="mes_attestations">Mes attestations</string>
+    <string name="mes_attestation">Mes attestations</string>
+    <string name="string_mes_attestation"/>
+    <string name="mes_formation">Mes formations</string>
+    <string name="mes_paiement">Mes paiements</string>
+</resources>

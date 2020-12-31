@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nouveaute"
+    android:layout_width="match_parent"
+    android:layout_height="80sp"
+    android:padding="16sp"
+    android:orientation="horizontal">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/song_cover"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/musicicon"
+        android:layout_marginTop="2sp"
+        android:layout_weight="0.09"/>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/song_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8sp"
+            android:textColor="@color/colorPrimary"
+            android:text="Formation"/>
+
+        <TextView
+            android:id="@+id/song_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8sp"
+            android:textSize="10sp"
+            android:textColor="@color/colorPrimary"
+            android:text="details"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/options"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@android:drawable/ic_menu_info_details"/>
+
+</LinearLayout>
+
+
+
+        <ImageView
+            android:id="@+id/song_cove"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/musicicon"
+            android:layout_marginTop="2sp"
+            android:layout_weight="0.09"/>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/song_titl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8sp"
+                android:textColor="@color/colorPrimary"
+                android:text="Formation"/>
+
+            <TextView
+                android:id="@+id/song_autho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8sp"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimary"
+                android:text="details"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/option"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@android:drawable/ic_menu_info_details"/>
+
+
+
+</LinearLayout>

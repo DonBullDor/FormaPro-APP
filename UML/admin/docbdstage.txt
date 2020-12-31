@@ -1,0 +1,21 @@
+Personne: client (clt_particulier,entreprise)
+client()
+entreprise(responsable ,adresse ,tel1 ,tel2, mail)->personnel(id,#id entreprise,nom prenom, tel mail)
+
+,formateur(id,nom prenom,dat nais adresse mail tel1 tel2 login mdp statut salaire )
+
+,admin
+(id nom prenom login mdp)
+,assistant(id nom prenom datnaiss adresse tel1 tel2 adresse email login mdp)
+assistant a des previleges (table) : ref, libelle de previlege(ajout client modif client)les privileges ss forme de case a coucher
+***************
+classe formation(libelle categorie(liste deroulante) type de formation(diplomante,non diplomante) prix nbre d heures )module de formation(ref type)nombredheureparmois)
+local(ref lib adr tel #idassistante)
+salle(ref lib capacite(nbr chaises) nbre de pc (salle info, salle normale 0 pc) #idlocal)
+paiement client(ref datepaiement montant paiement numfacture (numfacture le 1er janvier remise a 0),montant remise #id client ,#idsession)
+session(id,datedeb,datefin,nbred heure,#id formateur,#id formation,#idsalle,
+classe presence client(ref,date,nbredheure,#idsession#idclient)
+classe attestation(ref,numattestation(1er janvier remise a 0),type attestation(d inscrit de formation de presence)#idsession,#id client,date 
+paiement formateur(vacataire)(ref,date,prix,#idformateur,#idsession)
+diplome(ref date num type:btp , bts )
+comment 
